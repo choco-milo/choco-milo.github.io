@@ -107,6 +107,7 @@ Persistence forms the largest, most contiguous patches across the landscape. For
 ![Figure 6: Overall gap dynamics](project_figures/gap_dynamics.png)
 
 *Figure 6: Multi-temporal canopy gap-dynamics maps for (a) 2012–2018, (b) 2018–2022, and (c) 2012–2022, highlighting spatial patterns of formation, expansion, persistence, and closure.*
+
 ---
 
 ## Tools & Technologies
