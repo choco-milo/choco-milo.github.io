@@ -30,7 +30,7 @@ The analysis covers a study area in central British Columbia. Cutblock boundarie
 ### 1. DEM Preprocessing
 The DEM was clipped to the AOI and sink-filled using WhiteboxTools to ensure hydrological continuity - a prerequisite for accurate flow direction and accumulation modeling.
 
-![Figure 1: Digital Elevation Model of the study area in central BC](project_figures/afrfagbmap.png)
+![Figure 1: Digital Elevation Model of the study area in central BC](project_figures/530dem.png)
 
 *Figure 1: 30 m Digital Elevation Model (DEM) of the AOI after sink-filling. Elevation variation across the landscape provides the foundation for all terrain derivative calculations.*
 
@@ -77,37 +77,37 @@ Cutblocks were overlaid on the hazard index to quantify the distribution of haza
 
 **Slope:** The AOI is dominated by gentle to moderate slopes. Cutblocks are concentrated in the 10°–25° range, while the AOI includes a broader proportion of flatter terrain - consistent with harvesting avoiding the steepest ground.
 
-![Figure 2: Slope map of the study area in central BC](project_figures/afrfagbmap.png)
+![Figure 2: Slope map of the study area in central BC](project_figures/530slope.png)
 
 *Figure 2: Slope map (degrees) across the AOI. Cutblocks are predominantly located on gentle to moderate slopes, avoiding the steepest terrain.*
 
 **Aspect:** The landscape contains a mix of south-, west-, and east-facing slopes, with harvested areas reflecting this broader distribution.
 
-![Figure 3: Aspect map of the study area in central BC](project_figures/afrfagbmap.png)
+![Figure 3: Aspect map of the study area in central BC](project_figures/530aspect.png)
 
 *Figure 3: Aspect map showing dominant slope orientation across the AOI. The landscape contains a mix of south-, west-, and east-facing slopes.*
 
 **Flow Accumulation & Stream Networks:** High accumulation values trace concentrated drainage paths and potential stream initiation zones. Cutblocks largely avoid these corridors.
 
-![Figure 4: Flow direction and accumulation maps of the study area](project_figures/afrfagbmap.png)
+![Figure 4: Flow direction and accumulation maps of the study area](project_figures/530flowdiracc.png)
 
 *Figure 4: Flow direction and accumulation across the AOI. High accumulation values trace concentrated drainage paths and potential stream initiation zones.*
 
 **TWI:** Valley bottoms and convergent terrain show the highest wetness values. Cutblocks skew toward mid and upper-slope positions with lower TWI.
 
-![Figure 5: Topographic Wetness Index map of the study area](project_figures/afrfagbmap.png)
+![Figure 5: Topographic Wetness Index map of the study area](project_figures/530twi.png)
 
 *Figure 5: Topographic Wetness Index (TWI) across the AOI. Valley bottoms and convergent terrain show the highest soil moisture potential.*
 
 **RTPI:** Harvested areas avoid valley-confined positions with the highest RTPI-based hazard scores.
 
-![Figure 6: Relative Topographic Position Index map of the study area](project_figures/afrfagbmap.png)
+![Figure 6: Relative Topographic Position Index map of the study area](project_figures/530rtpi.png)
 
 *Figure 6: Relative Topographic Position Index (RTPI) across the AOI. Lower values indicate valley bottoms; higher values indicate ridgelines.*
 
 **Hazard Index:** When overlaid on the composite hazard map, most cutblocks fall within low-to-moderate hazard classes (1–3), with minimal overlap in the highest-risk zones. This suggests that harvesting in this AOI preferentially targets midslope and upper-slope positions that are relatively stable and well-drained.
 
-![Figure 7: Terrain-based hazard index map with cutblock overlay](project_figures/afrfagbmap.png)
+![Figure 7: Terrain-based hazard index map with cutblock overlay](project_figures/530hazard.png)
 
 *Figure 7: Composite terrain hazard index (classes 1–5) with cutblock overlay. Most harvested areas fall within low-to-moderate hazard classes.*
 
