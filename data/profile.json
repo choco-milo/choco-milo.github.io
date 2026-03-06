@@ -40,7 +40,7 @@
       "company": "Deep Metrics Inc.",
       "duration": "Oct 2022 - Dec 2022",
       "link": "https://countcars.com/",
-      "logo": "/deepmetrics",
+      "logo": "/deepmetrics.png",
       "location": "Missouri, USA (Remote)",
       "description": "Processed large-scale datasets for computer vision and transportation analytics. Conducted quality assurance on field-collected data and prepared annotated datasets for AI model training. Contributed to model evaluation pipelines for detecting moving vehicles and pedestrians.",
       "tools": "Python, Computer Vision Tools, YoloV5"
@@ -86,9 +86,9 @@
     },
     {
       "name": "GSuite Geospatial Application",
-      "description": "Collaborated in the development of a web-based application for geospatial data processing and visualization within the GSuite environment. Implemented functionalities to process spatial data, simplify complex geospatial workflows, and improve data-driven decision-making for users.",
+      "description": "Collaborated on the development of GSuite, a Python-based desktop application for geomatics and geospatial computations. Contributed to implementing tools for surveying calculations, coordinate transformations, geometry operations, and geospatial file conversions. The application provides an interactive graphical interface that streamlines common geomatics workflows for spatial data processing.",
       "link": "https://gsuite-app.vercel.app",
-      "tools": ""
+      "tools": "Python, PyQt5, GeoPandas, Fiona, Geopy, SimpleKML, Matplotlib, SQLite"
     }
   ],
   "education": [
@@ -117,28 +117,28 @@
       "name": "Geographic Information Systems & ArcGIS Pro",
       "organization": "ESRI Training",
       "year": "2025",
-      "link" : "https://drive.google.com/drive/folders/1asXXYkMLKIL8tRipBszcYk8MVrqapibx?dmr=1&ec=wgc-drive-%5Bmodule%5D-goto"
+      "link" : "/certifications/ESRI_Foundation_Certifications.pdf"
     },
     {
       "logo": "/esri1.png",
       "name": "Remote Sensing",
       "organization": "ESRI Training",
       "year": "2025",
-      "link": "https://drive.google.com/drive/folders/1asXXYkMLKIL8tRipBszcYk8MVrqapibx?dmr=1&ec=wgc-drive-%5Bmodule%5D-goto"
+      "link": "/certifications/ESRI_Foundation_Certifications.pdf"
     },
     {
       "logo": "/fme1.png",
       "name": "Integrate Data with the FME Platform",
       "organization": "FME Academy",
       "year": "2025",
-      "link" : "https://drive.google.com/drive/folders/1asXXYkMLKIL8tRipBszcYk8MVrqapibx?dmr=1&ec=wgc-drive-%5Bmodule%5D-goto"
+      "link" : "/certifications/fme_certificate.pdf"
     },
     {
       "logo": "/iau1.png",
       "name": "Innovation for African Universities Training",
       "organization": "IAU",
       "year": "2023",
-      "link": "https://drive.google.com/drive/folders/1asXXYkMLKIL8tRipBszcYk8MVrqapibx?dmr=1&ec=wgc-drive-%5Bmodule%5D-goto"
+      "link": "/certifications/IAU.pdf"
     }
   ]
 }

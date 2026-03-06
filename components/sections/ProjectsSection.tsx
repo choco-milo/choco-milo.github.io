@@ -41,7 +41,7 @@ export default function ProjectsSection({ projects }: ProjectsSectionProps) {
               <CardContent>
                 <p className="text-muted-foreground mb-4">{project.description}</p>
                 <div className="text-sm">
-                  <strong>Tools:</strong> {project.tools}
+                  <strong>Tech Stack:</strong> {project.tools}
                 </div>
               </CardContent>
             </Card>
