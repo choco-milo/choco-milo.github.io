@@ -17,6 +17,7 @@ This project uses **multi-temporal airborne laser scanning (ALS)** data from 201
 ## Study Area
 
 ![Figure 1: A map of PRF](project_figures/prfmap.png)
+
 *Figure 1: Location of the Petawawa Research Forest (PRF) in Ontario, Canada.*
 
 The Petawawa Research Forest sits on the southern edge of the Canadian Shield within the Great Lakes–St. Lawrence forest region. Its mixed composition of white pine, red pine, trembling aspen, red oak, white birch, and maple — combined with over a century of experimental management, windthrow, and insect disturbance — makes it an ideal landscape for studying structural dynamics.
