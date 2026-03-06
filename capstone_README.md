@@ -22,6 +22,10 @@ This project uses **multi-temporal airborne laser scanning (ALS)** data from 201
 
 The Petawawa Research Forest sits on the southern edge of the Canadian Shield within the Great Lakes–St. Lawrence forest region. Its mixed composition of white pine, red pine, trembling aspen, red oak, white birch, and maple - combined with over a century of experimental management, windthrow, and insect disturbance - makes it an ideal landscape for studying structural dynamics.
 
+![Figure 2: 3D visualization of an airborne LiDAR point cloud tile over the Petawawa Research Forest](project_figures/prflidar1.png)
+
+*Figure 2:  A single airborne LiDAR tile over the Petawawa Research Forest, coloured by height. Each point represents a laser return - dense forest canopy appears in red/yellow (taller), while lower vegetation and ground returns appear in blue/green.*
+
 Three ALS datasets were sourced from the **PRF Remote Sensing Supersite** (Canadian Forest Service / NFIS open-data portal):
 
 | Year | Area (km²) | Point Density (pts m⁻²) | CRS |
@@ -69,24 +73,24 @@ All gap and change maps were produced in ArcGIS Pro. Statistical figures (histog
 ### Canopy Height Structure
 1 m CHMs for all three years show a landscape dominated by continuous, closed canopy with spatially coherent areas of reduced height. Differences among years are subtle but ecologically meaningful, with areas of height gain and loss visible across acquisitions.
 
-![Figure 2: CHMs](project_figures/chms.png)
+![Figure 3: CHMs](project_figures/chms.png)
 
-*Figure 2: Normalized 1 m Canopy Height Models for (a) 2012, (b) 2018, and (c) 2022 in the Petawawa Research Forest.*
+*Figure 3: Normalized 1 m Canopy Height Models for (a) 2012, (b) 2018, and (c) 2022 in the Petawawa Research Forest.*
 
 
 ### Gap Extent & Distribution
 Canopy gaps are widespread across PRF, occurring predominantly as small, spatially dispersed openings embedded within intact forest. Some openings persist in the same location across all three years, while others appear or close between acquisitions.
 
-![Figure 3: Gaps](project_figures/gaps.png)
+![Figure 4: Gaps](project_figures/gaps.png)
 
-*Figure 3: Canopy gap maps (<3 m threshold) for (a) 2012, (b) 2018, and (c) 2022 in the Petawawa Research Forest, showing spatial continuity and change through time.*
+*Figure 4: Canopy gap maps (<3 m threshold) for (a) 2012, (b) 2018, and (c) 2022 in the Petawawa Research Forest, showing spatial continuity and change through time.*
 
 ### Gap Size Distributions
 Gap-size distributions are strongly **right-skewed** - small gaps dominate numerically at every time point, with frequency declining rapidly as gap size increases. On log–log axes, intermediate and large gap sizes follow a near-linear power-law trend consistent across 2012, 2018, and 2022, indicating a scale-invariant gap structure characteristic of disturbance-driven canopy turnover.
 
-![Figure 4: Loglog scale](project_figures/gap_loglog.png)
+![Figure 5: Loglog scale](project_figures/gap_loglog.png)
 
-*Figure 4: Gap size frequency plotted on log–log axes for 2012, 2018, and 2022, illustrating heavy-tailed behavior and a systematic decline in gap frequency with increasing gap area (m²).*
+*Figure 5: Gap size frequency plotted on log–log axes for 2012, 2018, and 2022, illustrating heavy-tailed behavior and a systematic decline in gap frequency with increasing gap area (m²).*
 
 ### Gap Dynamics (2012–2022)
 Over the full decade:
@@ -96,17 +100,17 @@ Over the full decade:
 
 By **count**, small gaps dominate every dynamics class. By **area**, large gaps disproportionately drive persistence and closure - a pattern consistent with previous ALS-based studies in Canadian mixedwood forests.
 
-![Figure 5: Gap dynamics by size](project_figures/gap_summary.png)
+![Figure 6: Gap dynamics by size](project_figures/gap_summary.png)
 
-*Figure 5: Number of dynamics patches summarized by gap size class (small, medium, large) and dynamics class (closure, expansion, formation, persistence) for the 2012–2022 interval.*
+*Figure 6: Number of dynamics patches summarized by gap size class (small, medium, large) and dynamics class (closure, expansion, formation, persistence) for the 2012–2022 interval.*
 
 
 ### Spatial Patterns
 Persistence forms the largest, most contiguous patches across the landscape. Formation and closure are more fragmented and dispersed. The spatial arrangement of dynamics shifts between intervals (2012–2018 vs. 2018–2022), indicating that canopy turnover is ongoing and spatially variable rather than concentrated in fixed locations.
 
-![Figure 6: Overall gap dynamics](project_figures/gap_dynamics.png)
+![Figure 7: Overall gap dynamics](project_figures/gap_dynamics.png)
 
-*Figure 6: Multi-temporal canopy gap-dynamics maps for (a) 2012–2018, (b) 2018–2022, and (c) 2012–2022, highlighting spatial patterns of formation, expansion, persistence, and closure.*
+*Figure 7: Multi-temporal canopy gap-dynamics maps for (a) 2012–2018, (b) 2018–2022, and (c) 2012–2022, highlighting spatial patterns of formation, expansion, persistence, and closure.*
 
 ---
 
