@@ -22,7 +22,8 @@ This project uses **multi-temporal airborne laser scanning (ALS)** data from 201
 
 The Petawawa Research Forest sits on the southern edge of the Canadian Shield within the Great Lakes–St. Lawrence forest region. Its mixed composition of white pine, red pine, trembling aspen, red oak, white birch, and maple - combined with over a century of experimental management, windthrow, and insect disturbance - makes it an ideal landscape for studying structural dynamics.
 
-![Figure 2: 3D visualization of an airborne LiDAR point cloud tile over the Petawawa Research Forest](project_figures/prflidar.png)
+<!-- ![Figure 2: 3D visualization of an airborne LiDAR point cloud tile over the Petawawa Research Forest](project_figures/prflidar1.png) -->
+<img src="project_figures/prflidar1.png" width="400"/>
 
 *Figure 2:  A single airborne LiDAR tile over the Petawawa Research Forest, coloured by height. Each point represents a laser return - dense forest canopy appears in red/yellow (taller), while lower vegetation and ground returns appear in blue/green.*
 
