@@ -39,6 +39,7 @@
     { "title": "Data Analyst Intern",
       "company": "Deep Metrics Inc.",
       "duration": "Oct 2022 - Dec 2022",
+      "link": "https://countcars.com/",
       "logo": "/school.svg",
       "location": "Missouri, USA (Remote)",
       "description": "Processed large-scale datasets for computer vision and transportation analytics. Conducted quality assurance on field-collected data and prepared annotated datasets for AI model training. Contributed to model evaluation pipelines for detecting moving vehicles and pedestrians.",
@@ -65,7 +66,7 @@
     {
       "name": "LiDAR Forest Attribute Mapping · Alex Fraser Research Forest",
       "description": "Built a full airborne LiDAR processing pipeline in R for UBC's Alex Fraser Research Forest — from raw point cloud normalization through CHM generation, plot-level metric extraction, forward stepwise regression modeling, and wall-to-wall spatial prediction. Produced 10 m resolution maps of aboveground biomass (R² = 0.69) and dominant height (R² = 0.82).",
-      "link": "https://github.com/choco-milo/choco-milo.github.io/blob/main/gem530_README.md",
+      "link": "https://github.com/choco-milo/choco-milo.github.io/blob/main/gem521_README.md",
       "tools": "R, lidR, terra, Stepwise Regression, Forest Inventory"
 
     },
@@ -80,7 +81,8 @@
     {
       "name": "Campus Navigation System – KNUST",
       "description": "Co-developed a web-based GIS navigation application for over 85,000 campus users at KNUST, featuring real-time routing, building search, and points of interest. Conducted extensive GPS field data collection and managed the spatial database of road networks and campus infrastructure.",
-      "link": "https://findmyclassroomknust.netlify.app/map"
+      "link": "https://findmyclassroomknust.netlify.app/map",
+      "tools": "Go, Python, TypeScript with React, PostgreSQL with PostGIS, QGIS, Leaflet"
     },
     {
       "name": "GSuite Geospatial Application",
@@ -95,7 +97,7 @@
       "logo": "/ubc.svg",
       "degree": "Master of Geomatics for Environmental Management (MGEM)",
       "duration": "May 2025 – April 2026 (Expected)",
-      "link": "https://www.ubc.ca/",
+      "link": "https://forestry.ubc.ca/future-students/graduate/professional-masters-degrees/master-of-geomatics-for-environmental-management/",
       "details": "MCF Scholarship | Capstone: Multi-temporal airborne LiDAR analysis of forest canopy gap dynamics (2012–2022). Relevant coursework: Remote Sensing, Spatial Statistics & Modeling, GIS for Environmental Management, R and Python Programming."
     },
     {
