@@ -61,7 +61,7 @@ export default function Navigation() {
               }`}
             >
               <Icon className="w-4 h-4" />
-              <span className="md:inline">{item.label}</span>
+              <span className=" hidden md:inline">{item.label}</span>
             </button>
           )
         })}
