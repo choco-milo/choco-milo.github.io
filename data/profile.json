@@ -59,22 +59,34 @@
     {
       "name": "Forest Canopy Gap Dynamics – Airborne LiDAR Analysis",
       "description": "Processed multi-temporal airborne LiDAR point cloud data spanning 10 years (2012–2022) to assess forest canopy gap dynamics and structural changes. Created derived products including Digital Elevation Models (DEMs) and Canopy Height Models (CHMs) using R-based geospatial workflows and spatial statistics.",
-      "link": ""
+      "link": "https://github.com/choco-milo/choco-milo.github.io/blob/main/capstone_README.md",
+      "tools": "R, lidR, ArcGIS Pro, Remote Sensing, Forest Ecology"
     },
+    {
+      "name": "LiDAR Forest Attribute Mapping · Alex Fraser Research Forest",
+      "description": "Built a full airborne LiDAR processing pipeline in R for UBC's Alex Fraser Research Forest — from raw point cloud normalization through CHM generation, plot-level metric extraction, forward stepwise regression modeling, and wall-to-wall spatial prediction. Produced 10 m resolution maps of aboveground biomass (R² = 0.69) and dominant height (R² = 0.82).",
+      "link": "https://github.com/choco-milo/choco-milo.github.io/blob/main/gem530_README.md",
+      "tools": "R, lidR, terra, Stepwise Regression, Forest Inventory"
+
+    },
+       {
+      "name": "Terrain Hazard Screening of Harvested Cutblocks – Central BC",
+      "description": "Built a terrain-based geohazard index for harvested cutblocks in central British Columbia using a 30m DEM. Derived slope, TWI, RTPI, flow accumulation, and aspect layers in Python with WhiteboxTools, reclassified each into hazard classes, and combined them via a weighted sum. Results showed cutblocks predominantly occupy low-to-moderate hazard terrain.",
+      "link": "https://github.com/choco-milo/choco-milo.github.io/blob/main/gem530_README.md",
+      "tools": "Python, WhiteboxTools, Rasterio, GeoPandas, QGIS"
+
+    },
+    
     {
       "name": "Campus Navigation System – KNUST",
       "description": "Co-developed a web-based GIS navigation application for over 85,000 campus users at KNUST, featuring real-time routing, building search, and points of interest. Conducted extensive GPS field data collection and managed the spatial database of road networks and campus infrastructure.",
       "link": "https://findmyclassroomknust.netlify.app/map"
     },
     {
-      "name": "Community Land Documentation & GPS Training Initiative",
-      "description": "Coordinated workshops in Asamankese training 100+ community members on GPS navigation and spatial data collection tools (Locus, Mappit). Created cadastral maps from field-collected GPS data to support land boundary documentation and help resolve approximately 10 reported land dispute cases.",
-      "link": ""
-    },
-    {
       "name": "GSuite Geospatial Application",
       "description": "Collaborated in the development of a web-based application for geospatial data processing and visualization within the GSuite environment. Implemented functionalities to process spatial data, simplify complex geospatial workflows, and improve data-driven decision-making for users.",
-      "link": "https://gsuite-app.vercel.app"
+      "link": "https://gsuite-app.vercel.app",
+      "tools": ""
     }
   ],
   "education": [
