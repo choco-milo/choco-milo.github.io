@@ -25,7 +25,7 @@ The Petawawa Research Forest sits on the southern edge of the Canadian Shield wi
 ![Figure 2: 3D visualization of an airborne LiDAR point cloud tile over the Petawawa Research Forest](project_figures/prflidar2.png)
 <!-- <img src="project_figures/prflidar1.png" width="400"/> -->
 
-*Figure 2:  A single airborne LiDAR tile over the Petawawa Research Forest, coloured by height. Each point represents a laser return - dense forest canopy appears in red/yellow (taller), while lower vegetation and ground returns appear in blue/green.*
+*Figure 2:  A single airborne LiDAR tile over the Petawawa Research Forest shown from two angles - top-down (left) and side profile (right). Points are coloured by height; red/yellow indicates tall canopy, blue/green indicates lower vegetation and ground returns.*
 
 Three ALS datasets were sourced from the **PRF Remote Sensing Supersite** (Canadian Forest Service / NFIS open-data portal):
 
